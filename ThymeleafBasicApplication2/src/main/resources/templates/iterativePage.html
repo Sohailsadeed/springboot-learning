@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Spring Boot App</title>
+</head>
+<body>
+    <ul>
+    	<li th:each="number:${numericList}">
+    		<span th:text="${number}"></span>
+    	</li>
+    </ul>
+</body>
+</html>

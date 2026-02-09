@@ -1,0 +1,19 @@
+# Eclipse workspace junk
+.metadata/
+
+# Maven build
+**/target/
+
+# Gradle build (optional)
+**/build/
+
+# Eclipse project files
+**/.settings/
+**/.classpath
+**/.project
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
