@@ -68,6 +68,22 @@ Each folder represents a **separate Spring Boot application**, mostly created us
 
 ---
 
+### 🔹 SpringJDBCLoginRegisterApp
+- Spring Boot application implementing **User Login and Registration**
+- Built using **Spring JDBC** for database interaction
+- Features:
+  - Register new students (stores user data in database)
+  - User login authentication
+  - Form handling using Spring MVC
+  - Database connectivity using JDBC Template
+- Focus areas:
+  - CRUD operations using Spring JDBC
+  - Authentication logic implementation
+  - Integration of backend with Thymeleaf views
+  - Handling user input and validation
+
+---
+
 ## 🛠 Tools & Technologies Used
 - Java
 - Spring Boot
