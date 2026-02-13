@@ -1,0 +1,19 @@
+<div th:fragment="register">
+     <div class="body_div">
+    	<form th:action="@{/registerPage}" method="post">	
+    		<br> <br>
+    		Name: <input type="text" name="name"> <br> <br>
+    		Email: <input type="text" name="email"> <br> <br>
+    		Password: <input type="password" name="password"> <br> <br>
+    		Gender: <input type="radio" name="gender" value="Male"/> Male<input type="radio" name="gender" value="Female"> Female<br> <br>
+    		City: <select name="city">
+    				<option> Select </option>
+    				<option value="Delhi">Delhi</option>
+    				<option value="Hyderabad">Hyderabad</option>
+    				<option value="Chennai">Chennai</option>
+    				<option value="Banglore">Banglore</option> 
+    			  </select>
+    		<input type="submit" value="login">
+    	</form>
+    </div>
+</div>

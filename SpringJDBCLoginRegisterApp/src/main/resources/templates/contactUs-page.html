@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+</head>
+<body>
+    <div th:replace="~{fragments/header :: header}"></div> 
+	<div th:replace="~{fragments/contactus :: contactUs}"></div>
+	<div th:replace="~{fragments/footer :: footer}"></div>
+</body>
+</html>

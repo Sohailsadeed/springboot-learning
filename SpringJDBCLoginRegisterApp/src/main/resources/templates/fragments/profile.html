@@ -1,0 +1,9 @@
+<div th:fragment="profilePage">
+	<div class="body_div">
+	<h2 style="color:green">Welcome, </h2> <br>
+	<h2 th:text="'Name: '+${session.student.getName()}"></h2>
+	<h2 th:text="'Email: '+${session.student.getEmail()}"></h2>
+	<h2 th:text="'Gender: '+${session.student.getGender()}"></h2>
+	<h2 th:text="'City: '+${session.student.getCity()}"></h2>
+	</div>
+</div>

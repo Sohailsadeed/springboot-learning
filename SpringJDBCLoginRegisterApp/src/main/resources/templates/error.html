@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+</head>
+<body>
+    <div th:replace="~{fragments/header :: header}"></div> 
+    <div class="error_text">An Error occurred while matching the details</div>
+	<div th:replace="~{fragments/login :: login}"></div>
+	<div th:replace="~{fragments/footer :: footer}"></div>
+</body>
+</html>
