@@ -1,0 +1,85 @@
+# =========================
+# Maven / Gradle
+# =========================
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gradle specific
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# =========================
+# Eclipse
+# =========================
+.metadata/
+.classpath
+.project
+.settings/
+bin/
+
+# Spring Tool Suite (STS)
+.springBeans
+.apt_generated/
+
+# =========================
+# IntelliJ (just in case)
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# =========================
+# VS Code (optional)
+# =========================
+.vscode/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+spring.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+application.properties
+application.yml
+
+# (Optional) keep template config
+!application-example.properties
+!application-example.yml
+
+# =========================
+# Generated files
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# Database files (if local)
+# =========================
+*.db
+*.sqlite
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.bak
+*.tmp
